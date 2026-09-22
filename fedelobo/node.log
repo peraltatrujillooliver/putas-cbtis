@@ -1,0 +1,12 @@
+cat << 'EOF' > actividad.log
+[2026-09-22T11:11:03-0600] [PACMAN] Running 'pacman -S nodejs npm'
+[2026-09-22T11:11:03-0600] [ALPM] transaction started
+[2026-09-22T11:11:03-0600] [ALPM] reinstalled nodejs (26.9.0-1)
+[2026-09-22T11:11:03-0600] [ALPM] reinstalled npm (12.0.2-1)
+[2026-09-22T11:11:03-0600] [ALPM] transaction completed
+[2026-09-22T11:11:03-0600] [USER] Created server.js via echo redirection
+[2026-09-22T11:11:39-0600] [NODE] Executed 'node server.js'
+[2026-09-22T11:11:39-0600] [NODE] Server listening at http://localhost:3000
+[2026-09-22T11:12:19-0600] [HTTP] GET / 200 OK - Response: "Servidor activo en el puerto 3000"
+[2026-09-22T11:12:19-0600] [HTTP] GET / 200 OK - Response: "<h1>Hola Mundo desde Linux Arch</h1>"
+EOF
